@@ -1,0 +1,27 @@
+{
+  "name": "finance-flow-converter",
+  "version": "0.1.0",
+  "private": true,
+  "description": "财务PDF/银行流水转Excel工具 - Next.js MVP",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "exceljs": "^4.4.0",
+    "nanoid": "^5.0.7"
+  },
+  "optionalDependencies": {
+    "@aws-sdk/client-textract": "^3.600.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.3"
+  }
+}
